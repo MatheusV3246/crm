@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1931c6170b7-779cfc716e309ea4": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "bd_prec.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\leonardo.yotsui\\OneDrive - Sicoob\\Área de Trabalho\\Projetos\\2. Projetos Aaa+\\23. CRM\\Banco de Dados\\bd_prec.db",
+				"url": "jdbc:duckdb:C:\\Users\\leonardo.yotsui\\OneDrive - Sicoob\\Área de Trabalho\\Projetos\\2. Projetos Aaa+\\23. CRM\\Banco de Dados\\bd_prec.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
